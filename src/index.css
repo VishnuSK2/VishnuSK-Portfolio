@@ -1,0 +1,154 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: RGB(33, 33, 33);
+}
+#hero h1{
+    font-size: 90px;
+}
+.projects #row1{
+    gap: 10px;
+}
+.contact .d-flex{
+    gap: 15px;
+}
+.contact .container .mt-4{
+    width: 70%;
+}
+#lang{
+    width: 75%;
+    font-size:35px;
+}
+#projects {
+    transition: background-color 0.3s ease-in-out;
+}
+#projects:hover {
+    background-color:#E31F71;
+}
+input{
+    width: 100%;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 12px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 12px;
+}#left{
+    margin-top: 130px;
+}
+.projects h4{
+    color: rgb(0, 255, 127);
+}
+#icon{
+    cursor: pointer;
+    color:rgb(0, 255, 127);
+}
+#about{
+    margin: auto;
+}
+span{
+    color: rgb(0, 255, 127)
+}
+@media screen and (max-width: 768px){
+    #hero p,h1,h2{
+        text-align: center;
+    }
+    #hero #img{
+        display: none;
+    }
+    .button-hero{
+        display: flex;
+        justify-content: center;
+    }
+    #hero h1{
+        font-size: 45px;
+    }
+    #hero .fs-3{
+        display: flex;
+        justify-content: center;
+    }
+    .projects #row1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact .d-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .contact .d-flex button{
+        font-size: 16px;
+    }
+    .contact .container p{
+        font-size: 12px;
+    }
+    .contact h4{
+        font-size: 17px;
+    }
+    .contact textarea{
+        height: 200px;
+    }
+    .contact .container .mt-4{
+        width: 100%;
+    }
+    footer  p{
+        font-size: 17px;
+        text-align: center;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container .fs-3{
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        margin: 0;
+        padding: 0;
+    }
+    #lang{
+        width: 100%;
+        height: 100%;
+        font-size:25px;
+    }
+    #profic-pic{
+        margin-top: 30px;
+    }
+    #left{
+        margin: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1205px){
+    #hero #hright{
+        width: 70%;
+        margin: auto;
+    }
+    #hleft{
+        width: 100%;
+        text-align: center;
+    }
+    #left{
+        width: 100%;
+        margin: auto;
+    }
+    #profic-pic{
+        margin: auto;
+        width: 100%;
+    }
+    .projects #row1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

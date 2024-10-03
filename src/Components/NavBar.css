@@ -1,0 +1,40 @@
+.glass-navbar {
+    background: rgba(16, 0, 0, 0.068);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    width: 100%;
+    margin: 0;
+  }
+
+  .glass-navbar .nav-link:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+  
+  .toggle-default {
+    background-color: rgb(0, 255, 127); 
+  }
+  
+  .toggle-small {
+    background-color: rgb(0, 255, 127); 
+    border: 0;
+  }
+
+  @media (max-width: 576px) {
+    .toggle-default {
+      display: none; 
+    }
+    .toggle-small {
+      display: block; 
+    }
+  }
+  
+
+  @media (min-width: 577px) {
+    .toggle-small {
+      display: none; 
+    }
+    .toggle-default {
+      display: block; 
+    }
+  }
+  
